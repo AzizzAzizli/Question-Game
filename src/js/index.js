@@ -127,19 +127,19 @@ ${questions.answers.map((el,index)=>`
 
 function checkAnswer(selectedIndex) {
 
-console.log(selectedIndex);
+// console.log(selectedIndex);
     let questions = questionsData[currentQuestionIndex];
     let selectedAnswer = questions.answers[selectedIndex][0][0];
 
     if (selectedAnswer === questions.trueAnswer) {
         yourScore++;
-        console.log("Right answer!");
+        // console.log("Right answer!");
 document.querySelector(`#card${selectedIndex}`).classList.remove("bg-dark-subtle");
 document.querySelector(`#card${selectedIndex} div `).classList.remove("bg-secondary")
 document.querySelector(`#card${selectedIndex}`).classList.add("bg-success");
 
     } else {
-        console.log("Wrong answer");
+        // console.log("Wrong answer");
         document.querySelector(`#card${selectedIndex}`).classList.remove("bg-dark-subtle");
         document.querySelector(`#card${selectedIndex} div`).classList.remove("bg-secondary");
         document.querySelector(`#card${selectedIndex}`).classList.add("bg-danger");
