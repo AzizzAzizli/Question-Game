@@ -1,3 +1,4 @@
+//------HTML Elements----------------------------
 const exitBtn=document.querySelectorAll(".exit");
 const startBtn=document.querySelector("#start");
 const mainDiv=document.querySelector("#mainDiv");
