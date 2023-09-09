@@ -1,32 +1,76 @@
 //-----------------Questions-------------------------------
-
-let questionsData= [
+  let questionsData = [
+    {
+              desc: "What is the role of a front-end developer in a web development team?",
+              answers: [
+                ["A)"," Writing server-side code"],
+                ["B)"," Managing databases"],
+                ["C)"," Designing user interfaces"],
+              ],
+              trueAnswer: "C",
+            },
+    {
+      desc: "What does the CSS property 'z-index' control?",
+      answers: [
+        ["A)", "Font size"],
+        ["B)", "Element's position in the z-axis"],
+        ["C)", "Border thickness"],
+      ],
+      trueAnswer: "B",
+    },
+    {
+      desc: "Which JavaScript method is used to add an element to the end of an array?",
+      answers: [
+        ["A)", "push()"],
+        ["B)", "append()"],
+        ["C)", "addToEnd()"],
+      ],
+      trueAnswer: "A",
+    },
+    {
+      desc: "What is the 'box-sizing' CSS property used for?",
+      answers: [
+        ["A)", "Changing the text color"],
+        ["B)", "Adjusting the box model calculation"],
+        ["C)", "Setting the background image"],
+      ],
+      trueAnswer: "B",
+    },
     {
       desc: "What does HTML stand for?",
       answers: [
         ["A)"," Hyper Transfer Markup Language"],
-        ["B)"," Hyper Text Markup Language"],
-        ["C)"," Hyperlink and Text Markup Language"],
-      ],
-      trueAnswer: "B",
-    },
-    {
-      desc: "Which programming language is primarily used for front-end web development?",
-      answers: [
-        ["A)"," Python"],
-        ["B)"," JavaScript"],
-        ["C)"," Java"],
-      ],
-      trueAnswer: "B",
-    },
-    {
-      desc: "What is the purpose of CSS in web development?",
-      answers: [
-        ["A)"," To create dynamic web pages"],
-        ["B)"," To define the structure of a web page"],
-        ["C)"," To style the appearance of a web page"],
+        ["B)","Hyperlink and Text Markup Language"],
+        ["C)","Hyper Text Markup Language"],
       ],
       trueAnswer: "C",
+    },
+    {
+      desc: "What is the purpose of 'localStorage' in JavaScript?",
+      answers: [
+        ["A)", "To store data temporarily on the server"],
+        ["B)", "To store data in the browser for future use"],
+        ["C)", "To store data in a remote database"],
+      ],
+      trueAnswer: "B",
+    },
+    {
+      desc: "Which CSS pseudo-class is used to select elements when they are in focus?",
+      answers: [
+        ["A)", ":hover"],
+        ["B)", ":active"],
+        ["C)", ":focus"],
+      ],
+      trueAnswer: "C",
+    },
+    {
+      desc: "What does the 'async' attribute in a script tag do?",
+      answers: [
+        ["A)", "Loads the script in parallel with HTML parsing"],
+        ["B)", "Blocks rendering of the page until the script is loaded"],
+        ["C)", "Loads the script synchronously"],
+      ],
+      trueAnswer: "A",
     },
     {
       desc: "Which tool is commonly used for version control in front-end development?",
@@ -38,13 +82,13 @@ let questionsData= [
       trueAnswer: "B",
     },
     {
-      desc: "What is the role of a front-end developer in a web development team?",
+      desc: "Which CSS property is used to add shadow to text?",
       answers: [
-        ["A)"," Writing server-side code"],
-        ["B)"," Designing user interfaces"],
-        ["C)"," Managing databases"],
+        ["A)", "text-shadow"],
+        ["B)", "box-shadow"],
+        ["C)", "shadow-text"],
       ],
-      trueAnswer: "B",
+      trueAnswer: "A",
     },
   ];
  
@@ -58,7 +102,6 @@ function renderAnswers(){
 
   let questions = questionsData[currentQuestionIndex];
 
-console.log(questions);
 
 
 
