@@ -1,0 +1,7 @@
+body{
+    box-sizing: border-box;
+}
+.myAnswerCards:hover{
+cursor: pointer;
+transform: translateY(-20px) scale(1.1);
+}

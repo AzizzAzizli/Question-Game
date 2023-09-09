@@ -1,0 +1,9 @@
+const exitBtn=document.querySelectorAll(".exit");
+const startBtn=document.querySelector("#start");
+const mainDiv=document.querySelector("#mainDiv");
+const beginningDiv=document.querySelector(".beginning");
+const answersDiv=document.querySelector(".answersDiv")
+const progressBar=document.querySelector("#progressBar");
+const endDiv=document.querySelector(".endDiv")
+const score=document.querySelector("#score");
+const restart=document.querySelector("#restart");
